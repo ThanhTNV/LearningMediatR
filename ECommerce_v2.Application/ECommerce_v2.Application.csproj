@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Dto\" />
+    <Folder Include="Common\Model\" />
+    <Folder Include="Feature\AddressManagement\Command\" />
+    <Folder Include="Feature\AddressManagement\Query\" />
+    <Folder Include="Feature\CategoryManagement\Command\" />
+    <Folder Include="Feature\CategoryManagement\Query\" />
+    <Folder Include="Feature\CustomerManagement\" />
+    <Folder Include="Feature\ProductReviews\" />
+    <Folder Include="Feature\PaymentProcessing\" />
+    <Folder Include="Feature\OrderProcessing\" />
+    <Folder Include="Feature\ShoppingCart\" />
+    <Folder Include="Feature\ProductManagement\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Validation\" />
+    <Folder Include="Pipeline\" />
+  </ItemGroup>
+
+</Project>
