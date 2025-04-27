@@ -14,21 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Dto\" />
-    <Folder Include="Common\Model\" />
-    <Folder Include="Feature\AddressManagement\Command\" />
-    <Folder Include="Feature\AddressManagement\Query\" />
-    <Folder Include="Feature\CategoryManagement\Command\" />
-    <Folder Include="Feature\CategoryManagement\Query\" />
-    <Folder Include="Feature\CustomerManagement\" />
-    <Folder Include="Feature\ProductReviews\" />
-    <Folder Include="Feature\PaymentProcessing\" />
-    <Folder Include="Feature\OrderProcessing\" />
-    <Folder Include="Feature\ShoppingCart\" />
-    <Folder Include="Feature\ProductManagement\" />
-    <Folder Include="Mapping\" />
+    <Folder Include="Feature\ProductManagement\Command\AssignProductCategory\" />
     <Folder Include="Validation\" />
     <Folder Include="Pipeline\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce_v2.Domain\ECommerce_v2.Domain.csproj" />
   </ItemGroup>
 
 </Project>
